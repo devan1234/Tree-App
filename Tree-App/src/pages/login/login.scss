@@ -1,4 +1,23 @@
 page-login {
+    .splash-info {
+        position: relative;
+        z-index: 2;
+        margin-top: -64px;
+        text-align: center;
+      }
+    .splash-logo {
+        margin: auto;
+        background: url(../assets/imgs/appLogo.png) no-repeat transparent;
+        background-size: 100% 100%;
+        width: 128px;
+        height: 128px;
+    }
+    .splash-intro {
+        font-size: 18px;
+        font-weight: bold;
+        max-width: 80%;
+        margin: auto;
+      }
     .login-title{
         position: relative;
         background: url('../assets/imgs/splashbg.jpg') no-repeat transparent;
